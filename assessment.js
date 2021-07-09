@@ -97,7 +97,7 @@ console.assert(
     '入力が同じ名前なら同じ診断結果を出力する処理が正しくありません。。'
 );*/
 
-//ここからは練習
+/*ここからは練習*/
 userNameInput.onkeydown = event => {
     if(event.key === 'Enter') {
         assessmentButton.onclick();
